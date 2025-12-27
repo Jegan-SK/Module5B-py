@@ -14,8 +14,17 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
+    x=np.array([10, 20, 30, 40, 50])
+    y = np.array([15, 20, 25, 35, 60])
+    indices = np.where(x >= y)
 
+    indices=np.where(x>=y)
+    print("Indices where x >= y :",indices)
 ## Output
 
+<img width="1247" height="58" alt="image" src="https://github.com/user-attachments/assets/1d8e8e19-35ac-4720-9075-7e5ef293a00a" />
+
 ## Result
+
+Thus the python program using numpy to find the indices where elements i array 'x' are graeter than or equal to corressponding elements in array 'y'
+, is written and executed successfully.
